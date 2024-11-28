@@ -36,8 +36,7 @@ The dataset consists of five CSV files related to the Tokyo 2021 Olympics:
 
 ### 5. **Power BI**  
 - Business intelligence tool used for **data visualization**.  
-- Integration with Synapse Analytics was initiated to build dashboards (I haven't done this as it is out of Data-Engineering scope).
-
+- Integration with Synapse Analytics was initiated to build dashboards.
 ---
 
 ## 🛠️ ETL Process  
@@ -70,7 +69,7 @@ The dataset consists of five CSV files related to the Tokyo 2021 Olympics:
      
 ![data-warehousing](screenshots/azure_synapse_3.png)
 
-4. **Visualization (In Progress)**  
+4. **Visualization**  
    - Power BI integration was initiated for interactive dashboard creation.  
    - Reports will focus on insights like medal distributions, gender-wise participation, and team performances.
 
@@ -96,7 +95,7 @@ The dataset consists of five CSV files related to the Tokyo 2021 Olympics:
 2. Set up Azure resources following the ETL pipeline steps provided in this repository.  
 3. Use the provided PySpark code for data transformation in Azure Databricks.  
 4. Link transformed data to Azure Synapse Analytics.  
-5. (Optional) Create dashboards in Power BI for data visualization.
+5. Create dashboards in Power BI for data visualization.
 
 ---
 
@@ -119,12 +118,3 @@ The dataset consists of five CSV files related to the Tokyo 2021 Olympics:
 
 ## 📌 Conclusion  
 This project showcases the potential of **Azure services** for building efficient and scalable ETL pipelines. It demonstrates how Azure Data Factory, ADLS Gen2, Databricks, Synapse Analytics, and Power BI can be integrated to process and analyze real-world datasets. While primarily designed as a learning exercise, the project lays a strong foundation for production-ready solutions with minor enhancements.
-
----
-
-## 👤 Author  
-- **Name**: Osama Hameed  
-- **Contact**: osamahameed712@gmail.com
-- **LinkedIn**: https://www.linkedin.com/in/osama-hameed712/
-
-Feel free to contribute or suggest improvements!
